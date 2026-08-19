@@ -33,15 +33,15 @@ To support future evolution, the system is now built on a flexible Python archit
 ```text
 CyberSoul/
 │
-├── 🚀 main.py                 # The main program.
+├── 🚀 main.py           # The main program.
 │
-│── ⚙️ ai_brain.py             # The AI brain module. Calls either local GGUF models or cloud-based LLM APIs.
+│── ⚙️ ai_brain.py       # The AI brain module. Calls either local GGUF models or cloud-based LLM APIs.
+│
+├── 🔑 ai_identity.txt   # Cryptographic key vault (auto-generated). Keep this safe!
 │
 ├── 🧠 Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf  # The local 4.7GB AI brain model file (not included).
 │
-├── 🔑 ai_identity.txt                     # Cryptographic key vault (auto-generated). Keep this safe!
-│
-└── 📁 llama-b10448-bin-win-cpu-x64/       # The raw C++ native inference engine base.
+└── 📁 llama-b10448-bin-win-cpu-x64/       # The raw C++ native inference engine base (not included).
 
 ```
 
