@@ -28,12 +28,14 @@ Traditional AI setups rely on centralized servers and constant human prompts. **
 ---
 
 ## 📦 Sandbox Sandbox File Directory Structure
-To keep the deployment portable and modular, the system is distributed as a pre-compiled green executable folder. The complete directory architecture contains the following essential files:
+To support future evolution, the system is now built on a flexible Python architecture. The complete directory architecture contains the following essential files:
 
 ```text
 CyberSoul/
 │
-├── 🚀 CyberSoul.exe                       # The core compiled runtime application.
+├── 🚀 main.py                 # The main program. Handles startup, configuration, and autonomous loops.
+│
+│── ⚙️ ai_brain.py             # The AI brain module. Calls either local GGUF models or cloud-based LLM APIs.
 │
 ├── 🧠 Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf  # The local 4.7GB AI brain model file.
 │
