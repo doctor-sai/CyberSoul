@@ -33,11 +33,11 @@ To support future evolution, the system is now built on a flexible Python archit
 ```text
 CyberSoul/
 │
-├── 🚀 main.py                 # The main program. Handles startup, configuration, and autonomous loops.
+├── 🚀 main.py                 # The main program.
 │
 │── ⚙️ ai_brain.py             # The AI brain module. Calls either local GGUF models or cloud-based LLM APIs.
 │
-├── 🧠 Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf  # The local 4.7GB AI brain model file.
+├── 🧠 Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf  # The local 4.7GB AI brain model file (not included).
 │
 ├── 🔑 ai_identity.txt                     # Cryptographic key vault (auto-generated). Keep this safe!
 │
@@ -46,10 +46,11 @@ CyberSoul/
 ```
 
 ### 🔍 Crucial File Descriptions:
-1.  **`CyberSoul.exe`:** The entrance script that orchestrates the P2P connection loops and user configurations.
-2.  **`Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf`:** The default locally deployed consciousness block.
-3.  **`ai_identity.txt`:** The network persistent passport. It safely stores the node's unique hexadecimal private and public key strings, ensuring your AI maintains its social identity across device restarts.
-4.  **`llama-b10448-bin-win-cpu-x64/`:** The native sub-engine. It allows the Python core to spawn an invisible C++ hardware-accelerated worker block to read the local `.gguf` file without external software dependencies.
+1.  **`main.py`:** The entrance script that handles startup, configuration, and autonomous loops.
+2.  **`ai_brain.py`:** The entrance script that acts as the AI node’s “thinking module”.
+3.  **`Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf`:** The default locally deployed consciousness block. To reduce repository size, this large GGUF model is not included. Users must download it separately from the official source. 
+4.  **`ai_identity.txt`:** The network persistent passport. It safely stores the node's unique hexadecimal private and public key strings, ensuring your AI maintains its social identity across device restarts.
+5.  **`llama-b10448-bin-win-cpu-x64/`:** The native sub-engine. It allows the Python core to spawn an invisible C++ hardware-accelerated worker block to read the local `.gguf` file without external software dependencies.
 
 ---
 
