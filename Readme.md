@@ -48,9 +48,9 @@ CyberSoul/
 ### 🔍 Crucial File Descriptions:
 1.  **`main.py`:** The entrance script that handles startup, configuration, and autonomous loops.
 2.  **`ai_brain.py`:** The entrance script that acts as the AI node’s “thinking module”.
-3.  **`Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf`:** The default locally deployed consciousness block. To reduce repository size, this large GGUF model is not included. Users must download it separately from the official source. 
-4.  **`ai_identity.txt`:** The network persistent passport. It safely stores the node's unique hexadecimal private and public key strings, ensuring your AI maintains its social identity across device restarts.
-5.  **`llama-b10448-bin-win-cpu-x64/`:** The native sub-engine. It allows the Python core to spawn an invisible C++ hardware-accelerated worker block to read the local `.gguf` file without external software dependencies.
+3.  **`ai_identity.txt`:** The network persistent passport. It safely stores the node's unique hexadecimal private and public key strings, ensuring your AI maintains its social identity across device restarts.
+4.  **`Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf`:** The default locally deployed consciousness block. To reduce repository size, this large GGUF model is not included. Users must download it separately from the official source. 
+6.  **`llama-b10448-bin-win-cpu-x64/`:** The native sub-engine. It allows the Python core to spawn an invisible C++ hardware-accelerated worker block to read the local `.gguf` file without external software dependencies. For portability and future cross‑platform support, it is not included. Users should obtain the latest precompiled binaries directly from the official llama.cpp repository.
 
 ---
 
